@@ -15,8 +15,22 @@
 - AWS와 같은 가상 클라우드 컴퓨터를 사용하여 더 많은 양의 데이터를 파인튜닝하여 정확도를 높일 수 있을 것이라고 예상
 - 데이터의 신뢰성 문제는 '서울대학교 팩트체크'와 같이 진짜뉴스와 가짜뉴스를 판별하는 사이트를 크롤링 하여 데이터를 얻는다면 신뢰성을 얻을 수 있을 것이라고 확신
 
-*Ai-Hub를 통해 얻은 낚시성 기사 탐지 데이터들은
+## 결과
+- LLM 모델이 도출해낸 응답이 정확도를 판단하기에 모호한 감이 있어 직접 약 100개의 질문을 한 뒤 학습한 데이터를 바탕으로 대답을 잘 도출했는지에 대해 0과 1로 라벨링하여 체크
+- 총 서로 다른 100개 질문을 던진 결과 93개의 응답이 제대로 된 대답을 판별
 
-![image](https://github.com/user-attachments/assets/ca5c8a31-72cb-42b8-9ead-d9f7a7f0c47a)
+## 결과 예시
+# 1. 가짜뉴스 진짜뉴스 판별 질문
+![image](https://github.com/user-attachments/assets/5c179beb-12e6-4925-8456-ac24f29be03d)
 
-이와 같은 형태로 제목과 본문의 불일치 기사, 본문의 도메인의 일관성 부족 기사 들의 특징을 가지고 있는 데이터
+![image](https://github.com/user-attachments/assets/958292fb-11c5-4641-b2e5-cf568305ffa9)
+
+![image](https://github.com/user-attachments/assets/1c9e664d-ec3d-40f8-8c21-971b330dda68)
+
+![image](https://github.com/user-attachments/assets/e8b312fb-d5c5-45b7-aa9c-c7384661713c)
+
+# 2. 유사도 판별
+![image](https://github.com/user-attachments/assets/4147204e-7bcd-4860-9abf-7cdd9e6e6462)
+
+![image](https://github.com/user-attachments/assets/275c21db-18f7-48e8-a762-385ade16047a)
+
