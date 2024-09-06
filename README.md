@@ -1,5 +1,9 @@
 # 가짜뉴스 탐지 프로젝트
 ## 목적
+![image](https://github.com/user-attachments/assets/614ac5d1-7a12-455f-9239-e315610b44b7)
+![image](https://github.com/user-attachments/assets/30871c51-4d9c-4129-936e-b15ce0d60c0c)
+![image](https://github.com/user-attachments/assets/60296e98-a42f-421d-bc49-efe94fcfe27e)
+
 - 오늘날 많은 사람들이 가짜뉴스에 쉽게 노출되어 그에 따른 피해가 생기는 것을 보고, ‘가짜뉴스를 찾아내는 모델’을 만드는 프로젝트 기획
 
 ## 프로젝트 개요
